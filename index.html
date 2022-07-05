@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Animal Sounds</h1>
+
+    <audio id="audio1" src="sounds/rooster.mp3"></audio>
+    <audio id="audio2" src="sounds/lion.mp3"></audio>
+    <audio id="audio3" src="sounds/owl.mp3"></audio>
+    <audio id="audio4" src="sounds/cat.mp3"></audio>
+    <audio id="audio5" src="sounds/dog.mp3"></audio>
+    <audio id="audio6" src="sounds/elephant.mp3"></audio>
+    <audio id="audio7" src="sounds/duck.mp3"></audio>
+    <audio id="audio8" src="sounds/cow.mp3"></audio>
+
+    <div id="containernames" >
+
+        <p class="rooster">Rooster</p>
+        <p>Lion</p>
+        <p class="a">Owl</p>
+        <p class="cat">Cat</p>
+        <p class="dog"> Dog</p>
+        <p class="elephant" >Elephant</p>
+        <p class="a">Duck</p>
+        <p class="cow"  >Cow</p>
+
+    </div>
+
+    <div id="containericons">
+
+        <img src="assets/soundicon2.png" class="tamanhos2" onmouseleave="mouseleave(0)" onmouseover="mouseover(0)" onclick="sounds('cock')">
+
+        <img src="assets/soundicon2.png"  onmouseover="mouseover(1)" onmouseleave="mouseleave(1)"class="tamanhos2" onclick="sounds('lion')">
+
+        <img src="assets/soundicon2.png" 
+        onmouseover="mouseover(2)" onmouseleave="mouseleave(2)" class="tamanhos2" onclick="sounds('owl')">
+
+        <img src="assets/soundicon2.png" onmouseover="mouseover(3)" onmouseleave="mouseleave(3)"class="tamanhos2" onclick="sounds('cat')">
+
+        <img src="assets/soundicon2.png" onmouseover="mouseover(4)" onmouseleave="mouseleave(4)"class="tamanhos2" onclick="sounds('dog')">
+
+        <img src="assets/soundicon2.png" onmouseover="mouseover(5)" onmouseleave="mouseleave(5)"class="tamanhos2" onclick="sounds('elephant')">
+
+        <img src="assets/soundicon2.png" onmouseover="mouseover(6)" onmouseleave="mouseleave(6)"class="tamanhos2" onclick="sounds('duck')">
+
+        <img src="assets/soundicon2.png" onmouseover="mouseover(7)" onmouseleave="mouseleave(7)"class="tamanhos2" onclick="sounds('cow')">
+    </div>
+
+    <div id="container">
+
+        <img id="galo" onmouseleave="mouseleave(0)" onmouseover="mouseover(0)" class="tamanhos" src="assets/galo.jpg">
+
+        <img  id="lion" onmouseleave="mouseleave(1)" onmouseover="mouseover(1)" onclick="sounds('lion')" class="tamanhos" src="assets/leao.jpg">
+
+        <img  id="owl" onmouseleave="mouseleave(2)" onmouseover="mouseover(2)" onclick="sounds('owl')"class="tamanhos" src="assets/coruja.jpg">
+
+        <img id="cat" onmouseleave="mouseleave(3)" onmouseover="mouseover(3)" onclick="sounds('cat')" class="tamanhos" src="assets/gato.jpg">
+
+        <img  id="dog" onmouseleave="mouseleave(4)" onmouseover="mouseover(4)" onclick="sounds('dog')"  class="tamanhos" src="assets/cao.jpg">
+
+        <img id="elephant" onmouseleave="mouseleave(5)" onmouseover="mouseover(5)" onclick="sounds('elephant')" class="tamanhos" src="assets/elefante.jpg"> 
+
+        <img id="duck" onmouseleave="mouseleave(6)" onmouseover="mouseover(6)" onclick="sounds('duck')" class="tamanhos" src="assets/pato.jpg">
+
+        <img id="cow" onmouseleave="mouseleave(7)" onmouseover="mouseover(7)"
+         onclick="sounds('cow')" class="tamanhos" src="assets/vaca.jpg">
+
+    </div>
+
+    
+
+  <script src="script.js"></script>  
+</body>
+</html>

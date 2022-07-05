@@ -1,0 +1,174 @@
+* {
+    height: 100%;
+}
+
+
+
+body {
+    margin: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+    background-image: linear-gradient(to bottom, rgb(57, 145, 57), rgb(59, 138, 59) );
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+h1 {text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    position: relative;
+    top: -2%;
+    color: white;
+    text-shadow: 0px 0px 8px black ;
+
+}
+
+#container {
+    position: absolute;
+    top: 10%;
+    margin: auto;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 500px;
+    display: grid;
+    grid-template: auto auto / auto auto auto auto;
+    justify-content: space-evenly;
+    row-gap: 50px ;
+
+
+}
+
+.tamanhos{
+    width: 250px;
+    height: 200px;
+    border: 3px solid white;
+    border-radius: 20px;
+}
+
+.tamanhos2{
+    width: 150px;
+    height: 150px;
+    z-index: 1;
+    opacity: 0.0;
+}
+
+@keyframes over {
+
+    from {}
+    to {opacity: 0.6;}
+}
+
+@keyframes overicon {
+
+from {opacity: 0.0;}
+
+to {opacity: 1.0; cursor:pointer;}
+
+}
+
+#containericons {
+    position: absolute;
+    top: 5%;
+    margin: auto;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 550px;
+    display: grid;
+    grid-template: auto auto / auto auto auto auto;
+    align-items: center;
+    justify-content: space-evenly;
+    column-gap: 50px;
+}
+
+@keyframes leave {
+
+    from {opacity: 0.6;}
+    to {opacity: 1.0;}
+
+
+}
+
+@keyframes leaveicon {
+
+    from {opacity: 1.0; cursor:pointer;}
+    to {opacity: 0.0; }
+
+
+}
+
+#containernames {
+    font-size: 40px;
+    width: 95%;
+    position: absolute;
+    top: 38%;
+    left: 2%;
+    margin: auto;
+    display: inline-block;
+    box-sizing: border-box;
+    height: 550px;
+    display: grid;
+    grid-template: auto auto / auto auto auto auto;
+    align-items: flex-start;
+    justify-content: space-around;
+    row-gap: 10px;
+    column-gap: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-shadow: 0px 0px 5px black ;
+
+
+}
+
+p {
+
+justify-self: left;
+
+
+}
+
+.a {
+
+position: relative;
+    right: 40px;
+
+}
+
+.dog {
+
+position: relative;
+left: 40px;
+
+
+}
+
+.cow {
+    position: relative;
+    right: 20px;
+
+
+}
+
+.cat {
+
+    position: relative;
+    right: 20px;
+
+
+}
+
+.elephant {
+
+    position: relative;
+    right: 20px;
+}
+
+.rooster {
+
+    position:relative ;
+    left: 20px;
+
+
+}
